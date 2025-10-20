@@ -10,5 +10,5 @@ L'objectif est de créer un site web structuré avec plusieurs pages interconnec
 
 - **Page d'accueil (Home)** : Introduction au thème “Space Discovery” avec des visuels immersifs et engageants.
 - **Page “Missions”** : Présentation des missions emblématiques de SpaceX comme Falcon 9, Starship, Crew Dragon, et Starlink.
-- **Page “Technologies”** : Détails sur les innovations techniques de SpaceX, y compris la réutilisation des fusées, la propulsion et l’ingénierie avancée.
+- **Page “Planets”** : Détails sur les innovations techniques de SpaceX, y compris la réutilisation des fusées, la propulsion et l’ingénierie avancée.
 - **Page “Contact”** : Formulaire complet pour permettre aux utilisateurs de rejoindre la communauté des passionnés de SpaceX.

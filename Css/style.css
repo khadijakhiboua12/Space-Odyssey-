@@ -347,7 +347,7 @@
 
 .cart4 p {
     width: 80%;
-    /* أو 100% حسب التصميم */
+   
     margin: auto;
     line-height: 1.2;
     margin-top: 12px;
@@ -747,10 +747,11 @@
 
 
 
- */
+ 
 /* Pour la page mission */
-.h11 {
-    text-align: center;
+.section10 .h11{
+
+  text-align: center;
 }
 
 .sect1 {
