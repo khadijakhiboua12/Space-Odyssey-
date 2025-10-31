@@ -229,7 +229,7 @@ position:absolute;
 }
 
 .container_8{
-     display:grid;
+    display:grid;
     grid-template-columns:200px 200px 200px 200px;
     margin-top:40px;
       

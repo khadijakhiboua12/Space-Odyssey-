@@ -2,6 +2,8 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    font-weight: 90px;
+
 
 }
 
@@ -132,13 +134,13 @@
     z-index: 1;
     margin-top: 50px;
     text-align: center;
+    font-size: 20px;
 }
 
-.btn1 {
+/* .btn1 {
     background-color: white;
     z-index: 1;
     position: absolute;
-    /* <!--probleme fax dart relative bant o hta l3kse--> */
     width: 110px;
     height: 40px;
     margin-left: 700px;
@@ -151,109 +153,197 @@
 
 .btn1 a {
     color: black;
+} */
+
+.btn1 {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 12px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    z-index: 1;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+    box-shadow: 0 5px 8px rgba(33, 31, 31, 0.1);
 }
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-2px);
+}
+
 
 .section2 {
     display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
     gap: 100px;
 }
 
 /* Pour les cartes "cart1" */
 .cart1 {
-   background-color: black;
-  
+    /* background-color: black; */
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 8px rgba(70, 69, 62, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+
     width: 400px;
     height: 240px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 12px 12px 12px 12px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+}
+
+.cart1:hover {
+    transform: translate(5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .cart1 h1 {
-    color: white;
+    /* color: white; */
     margin-top: 20px;
     text-align: center;
 }
 
 .cart1 p {
     margin-top: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    color:white;
+    letter-spacing: 1.5px;
+    text-align: start;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
+
+    /* color:rgba(213, 210, 210, 0.946); */
 }
 
 .cart1 .btn2 {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: transparent;
     margin-left: 290px;
-    margin-top: 12px;
-    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
     width: 90px;
     height: 30px;
+    box-shadow: 0 5px 8px rgba(33, 31, 31, 0.1);
+    font-weight: 10;
+    transition: all 0.3s ease;
+    color: black;
+
 }
 
 /* Pour les cartes "cart2" */
 .cart2 {
-   background-color: black;
+    /* background-color: black; */
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 8px rgba(70, 69, 62, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+
     width: 400px;
     height: 240px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 12px 12px 12px 12px;
+    /* margin-left: 60px; */
+}
+
+.cart2 :hover {
+
+    transform: translate(5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .cart2 h1 {
-    color: white;
     margin-top: 20px;
     text-align: center;
 }
 
 .cart2 p {
     margin-top: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    color:white;
+
+    text-align: start;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
+    letter-spacing: 1.5px;
 }
 
 .cart2 .btn3 {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: transparent;
     margin-left: 290px;
-    margin-top: 12px;
-    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
     width: 90px;
     height: 30px;
+    box-shadow: 0 5px 8px rgba(33, 31, 31, 0.1);
+    font-weight: 10;
+    transition: all 0.3s ease;
+    color: black;
 }
 
 /* Pour les cartes "cart3" */
 .cart3 {
-   background-color: black;
-    background-position: center;
+    /* background-color: black; */
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+
     width: 400px;
     height: 240px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 12px 12px 12px 12px;
+    /* margin-left: 60px; */
 }
 
 .cart3 h1 {
-    color: white;
     margin-top: 20px;
     text-align: center;
 }
 
 .cart3 p {
     margin-top: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-    color:white;
+    letter-spacing: 1.5px;
+    text-align: start;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
 }
 
 .cart3 .btn4 {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: transparent;
     margin-left: 290px;
-    margin-top: 12px;
-    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
     width: 90px;
     height: 30px;
+    box-shadow: 0 5px 8px rgba(33, 31, 31, 0.1);
+    font-weight: 10;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.carte3 :hover {
+    transform: translate(5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .section3 {
     display: flex;
     position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
 }
 
 .contenu1 {
@@ -263,11 +353,14 @@
     margin-left: 100px;
     margin-top: 70px;
 
+
 }
 
 .contenu1 p {
     color: black;
     text-align: center;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
 }
 
 .icon22 {
@@ -307,14 +400,23 @@
 
 /*Pour la section 4*/
 .section4 {
-    background-color: blue;
+    /* display:flex;
+    justify-content: center; */
     height: 300px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width: 68%;
     position: relative;
-    margin-top: 200px;
+    margin-top: 400px;
     border: 2px;
     border-radius: 18px 18px 18px 18px;
+
+
+}
+
+.testimation {
+    display: flex;
+    justify-content: start;
+    margin-left: 300px;
 
 }
 
@@ -331,7 +433,7 @@
 .cart4 {
     background-color: #99999982;
     width: 400px;
-    height: 270px;
+    height: 280px;
     margin-top: 50px;
     border-radius: 12px 12px 12px 12px;
     margin-left: 100px;
@@ -347,16 +449,18 @@
 
 .cart4 p {
     width: 80%;
-   
     margin: auto;
     line-height: 1.2;
-    margin-top: 12px;
+    margin-top: 10px;
     color: white;
+    text-align: start;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
 }
 
 .cart4 .btn5 {
     margin-left: 260px;
-    margin-top: 1px;
+
     border: 2px black;
     border-radius: 10px;
     width: 90px;
@@ -416,6 +520,8 @@
 .parag1 p {
     color: black;
     line-height: 2;
+    font-weight: 10px;
+    font-family: "Georgia", serif;
 
 }
 
@@ -426,14 +532,35 @@
     margin-right: 13%;
 }
 
-.btn6 {
+/* .btn6 {
     margin-left: 200px;
     border: 2px black;
     border-radius: 10px 10px;
     width: 97px;
     height: 40px;
 
+} */
+
+.btn6 {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background: transparent;
+    margin-left: 200px;
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+    width: 90px;
+    height: 30px;
+    box-shadow: 0 5px 8px rgba(33, 31, 31, 0.1);
+    font-weight: 10;
+    transition: all 0.3s ease;
+    color: black;
 }
+
+.btn6 :hover {
+    transform: translate(5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
 
 /* Pour la partie fotter */
 
@@ -619,7 +746,7 @@
     height: 240px;
     margin-left: 10%;
     margin-top: 80px;
-/* width: 300px;
+    /* width: 300px;
     height: 240px; */
 }
 
@@ -658,7 +785,7 @@
 
 /* Pour la section suivante */
 .section8 h1 {
-    margin-left: 650px;
+    margin-left:850px;
 }
 
 .div_prancip1 {
@@ -747,11 +874,11 @@
 
 
 
- 
-/* Pour la page mission */
-.section10 .h11{
 
-  text-align: center;
+/* Pour la page mission */
+.section10 .h11 {
+
+    text-align: center;
 }
 
 .sect1 {
@@ -789,4 +916,72 @@
     justify-content: center;
     gap: 60px;
 }
+/* //design de bare reecher en mission */
+/* ======================= */
+/* Section des filtres */
+/* ======================= */
 
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 15px 25px;
+  border-radius: 12px;
+  margin: 30px auto;
+  width: fit-content;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Input de recherche */
+#searchInput {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  min-width: 250px;
+  background-color: #f7f7f7;
+  transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 153, 255, 0.4);
+}
+
+/* Sélecteurs */
+#agencyFilter, 
+#yearFilter {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#agencyFilter:hover, 
+#yearFilter:hover {
+  background-color: #e3f2fd;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #searchInput,
+  #agencyFilter,
+  #yearFilter {
+    width: 100%;
+  }
+}
